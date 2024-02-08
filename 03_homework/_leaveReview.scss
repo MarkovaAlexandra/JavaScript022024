@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.review {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.review-title {
+    text-align: center;
+}
+
+input {
+
+    padding: 0 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    min-height: 30px;
+    transition: all 0.5s;
+
+}
+
+input:focus {
+    box-shadow: 5px 5px 5px rgb(76, 30, 119);
+
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+}
+
+textarea:focus {
+    box-shadow: 5px 5px 5px rgb(76, 30, 119);
+}
+
+button {
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover,
+.btn-link:hover {
+    box-shadow: 5px 5px 5px rgb(76, 30, 119);
+}
+
+button:active,
+.btn-link:active {
+    top: 2px;
+
+}
+
+.btn-link {
+    display: block;
+    // width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 35px;
+    position: relative;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.del-btn {
+    font-size: 10px;
+    height: 15px;
+}
