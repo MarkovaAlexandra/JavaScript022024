@@ -1,0 +1,44 @@
+[
+    {
+        "title": "TotalStretch",
+        "time": "10: 00",
+        "maxCount": "20",
+        "currentCount": "10"
+    },
+    {
+        "title": "GymTime Full Body",
+        "time": "11: 00",
+        "maxCount": "25",
+        "currentCount": "22"
+    },
+    {
+        "title": "Spirit.Yoga",
+        "time": "12: 00",
+        "maxCount": "10",
+        "currentCount": "5"
+    },
+    {
+        "title": "Fighter",
+        "time": "15: 30",
+        "maxCount": "20",
+        "currentCount": "15"
+    },
+    {
+        "title": "HardCore",
+        "time": "15: 00",
+        "maxCount": "20",
+        "currentCount": "15"
+    },
+    {
+        "title": "Pump It Up",
+        "time": "17: 00",
+        "maxCount": "20",
+        "currentCount": "10"
+    },
+    {
+        "title": "Pilates",
+        "time": "19: 00",
+        "maxCount": "20",
+        "currentCount": "10"
+    }
+]

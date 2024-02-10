@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.schedule {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 16px;
+
+
+}
+
+.schedule-item {
+
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 196, 196);
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.name {}
+
+.time {}
+
+.big {
+    font-size: 24px;
+}
+
+.max {
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.cur {
+    text-align: center;
+    font-size: 24px;
+}
+
+.sign,
+.cancel {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(229, 202, 255, 0.986);
+    border-color: rgb(255, 196, 196);
+    transition: all 0.3s;
+
+}
+
+.cancel {
+    background-color: rgb(127, 255, 185);
+}
+
+.sign:hover,
+.cancel:hover {
+    box-shadow: 3px 3px 3px 2px rgba(34, 60, 80, 0.2);
+}
+
+.sign:active,
+.cancel:active {
+    top: 2px;
+
+}
